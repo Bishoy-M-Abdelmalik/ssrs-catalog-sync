@@ -1,0 +1,12 @@
+ssrs_catalog_sync:
+  db_connect:
+    server: "localhost"
+    database: "catalog_db"
+    driver: "ODBC Driver 17 for SQL Server"
+    timeout: 300
+
+  api_endpoint:
+    rest_url: "https://ssrs.example.com/reports/api/v2.0/CatalogItems"
+
+  ssrs:
+    base_url: "https://ssrs.example.com"
