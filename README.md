@@ -66,8 +66,7 @@ python -c "from ssrs_catalog_sync import ssrs_catalog_sync; ssrs_catalog_sync(['
 ssrs-catalog-sync/
 ├── ssrs_catalog_sync.py   # Main entry point, REST client, XML parser, and DB manager
 ├── config.yaml            # Configuration for SSRS API and database
-├── README.md
-└── LICENSE
+└── README.md
 ```
 
 ## Expected Database Schema
